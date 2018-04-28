@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "137315388584",
+    "firebase_url": "https://salessystem-e6d8b.firebaseio.com",
+    "project_id": "salessystem-e6d8b",
+    "storage_bucket": "salessystem-e6d8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137315388584:android:0155dc3d23fa34f4",
+        "android_client_info": {
+          "package_name": "com.jevar.salessystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137315388584-2qh8qt34pu7j10n07rbt3jg62b9tnof2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jevar.salessystem",
+            "certificate_hash": "535d147f2cd86d7375ef2cd8b640ce7046cbbe0e"
+          }
+        },
+        {
+          "client_id": "137315388584-tellnqbqn9v9oouphpnrorvl5j451kvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC13XqMgRQ_b0LrRuEmT1MjdWaxx2WvyEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137315388584-tellnqbqn9v9oouphpnrorvl5j451kvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
