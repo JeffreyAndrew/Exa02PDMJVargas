@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.jevar.salessystem.view.MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/userRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"/>
+
+    <ImageButton
+        android:id="@+id/btnRegisterProdMain"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="32dp"
+        android:layout_toStartOf="@+id/btnPurchaseMain"
+        app:srcCompat="@drawable/ic_message"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageButton
+        android:id="@+id/btnPurchaseMain"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnRegisterProdMain"
+        android:layout_marginEnd="46dp"
+        app:srcCompat="@drawable/ic_person"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageButton
+        android:id="@+id/btnPollMain"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/btnRegisterProdMain"
+        android:layout_below="@+id/btnRegisterProdMain"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_poll" />
+
+    <ImageButton
+        android:id="@+id/btnCourseMain"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/btnPurchaseMain"
+        android:layout_alignTop="@+id/btnPollMain"
+        app:srcCompat="@drawable/ic_course" />
+
+
+</RelativeLayout>

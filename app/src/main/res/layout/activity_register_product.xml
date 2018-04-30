@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentator.RegisterProductActivity">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Registrar Producto"
+        android:textColor="#407ab7"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:textStyle="normal|bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/txtNameProdRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Precio" />
+
+    <EditText
+        android:id="@+id/txtPriceProdRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Precio"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Stock" />
+
+    <EditText
+        android:id="@+id/txtStockProdRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Stock"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRegisterProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4b82bc"
+        android:text="Registrar"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
