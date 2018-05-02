@@ -18,8 +18,9 @@
         </activity>
         <activity android:name=".view.LoginActivity" />
         <activity android:name=".view.MainActivity" />
-        <activity android:name=".presentator.RegisterProductActivity" />
-        <activity android:name=".view.PurchaseActivity"/>
+        <activity android:name=".view.RegisterProductActivity" />
+        <activity android:name=".view.PurchaseActivity" />
+        <activity android:name=".view.SaleActivity"></activity>
     </application>
 
 </manifest>
